@@ -11,7 +11,7 @@ A secure messaging system with end-to-end encryption, certificate authentication
 
 ## Installation
 
-## Clone repository
+### Clone repository
 cd secure-chat
 
 ## Create virtual environment
