@@ -14,14 +14,14 @@ A secure messaging system with end-to-end encryption, certificate authentication
 ### Clone repository
 cd secure-chat
 
-## Create virtual environment
+### Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Linux/MacOS
 venv\Scripts\activate.bat  # Windows
 
-## Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-## Generate certificates
+### Generate certificates
 mkdir ca users
 python generate_certs.py
